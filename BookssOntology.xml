@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/euIaHCYjskutwVcxveMJK#"
+     xml:base="http://webprotege.stanford.edu/project/euIaHCYjskutwVcxveMJK"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/euIaHCYjskutwVcxveMJK"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7lIwJyZFLI7kSkqyZZd56T -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7lIwJyZFLI7kSkqyZZd56T">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RuSC2tSMvuNE4tBnN77NHp"/>
+        <rdfs:label>lastName</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ojw8M2aB9C1x5ORACkh3T -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8ojw8M2aB9C1x5ORACkh3T">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96SvVxyaxWR822eiKdPF93 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R96SvVxyaxWR822eiKdPF93">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>isbn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9kDMeJCmy4F2AXsJR9CJea -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9kDMeJCmy4F2AXsJR9CJea">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R96SvVxyaxWR822eiKdPF93"/>
+        <rdfs:label>isbn-10</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiREPtKIiwlzcPkgxpQ8eZ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBiREPtKIiwlzcPkgxpQ8eZ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>publisher</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCP66GYo10V5zK01IU6AH3A -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCP66GYo10V5zK01IU6AH3A">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>title</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDeQnddKLWzqgq9mt1ORXTe -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDeQnddKLWzqgq9mt1ORXTe">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RuSC2tSMvuNE4tBnN77NHp"/>
+        <rdfs:label>firstName</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTWDIx8jHdwwXCDw8e1r22 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RTWDIx8jHdwwXCDw8e1r22">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R96SvVxyaxWR822eiKdPF93"/>
+        <rdfs:label>isbn-13</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhuS2FZOvaoevV393kghw0 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RhuS2FZOvaoevV393kghw0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>format</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuSC2tSMvuNE4tBnN77NHp -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RuSC2tSMvuNE4tBnN77NHp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>author</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuabxrN9NW2xX72PbyGvZC -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RuabxrN9NW2xX72PbyGvZC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>description</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RK07NDs5pkbZXL0c7lvRIq -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RK07NDs5pkbZXL0c7lvRIq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYZzIetPAP0NOZbzK9TMe2 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RYZzIetPAP0NOZbzK9TMe2">
+        <rdfs:label>ISBN</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81VCMGmBXoJui52L7xb9i5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81VCMGmBXoJui52L7xb9i5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCj4gqj5xQqktdUCyuuNPPm"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoda Kotb</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">March 6, 2018</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32 pages, 4 - 8 years</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins</dc:publisher>
+        <dc:title xml:lang="en">I&apos;ve Loved You Since Forever</dc:title>
+        <rdfs:label>childrensBooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Ive-Loved-You-Since-Forever/dp/0062841742/ref=sr_1_4?dchild=1&amp;keywords=childrens+books&amp;qid=1587928591&amp;sr=8-4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KDUvu8534gkeILisQTyqh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8KDUvu8534gkeILisQTyqh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCj4gqj5xQqktdUCyuuNPPm"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Geopraphic</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">August 16, 2011</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">432 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Science Book: Everything You Need to Know About the World and How It Works</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scienceBooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Science-Book-Everything-About-World/dp/1426208081/ref=sr_1_1?dchild=1&amp;keywords=science+book&amp;qid=1587928581&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCj4gqj5xQqktdUCyuuNPPm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCj4gqj5xQqktdUCyuuNPPm">
+        <rdfs:label>books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1UgsobUhvtqa5p9xIu5q7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1UgsobUhvtqa5p9xIu5q7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCj4gqj5xQqktdUCyuuNPPm"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charles C. Mann</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">August 9, 2005</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">480 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knopf</dc:publisher>
+        <dc:title xml:lang="en">1491: New Revelations of the Americas Before Columbus</dc:title>
+        <rdfs:label>historyBooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/1491-Revelations-Americas-Before-Columbus/dp/140004006X/ref=tmm_hrd_swatch_0?_encoding=UTF8&amp;qid=1587929145&amp;sr=1-3-32a32192-7547-4d9b-b4f8-fe31bfe05040"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWi0uqA6bJcAwWMW1t0Nqz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDWi0uqA6bJcAwWMW1t0Nqz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCj4gqj5xQqktdUCyuuNPPm"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A.G Riddle</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">March 11, 2019</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legion Books</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winter World (The Long Winter Trilogy)</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scienceficBooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Winter-World-G-Riddle/dp/1940026210/ref=tmm_hrd_swatch_0?_encoding=UTF8&amp;qid=1587930267&amp;sr=1-8"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
